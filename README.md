@@ -3,7 +3,11 @@
 This project demonstrate the implementation of CSS Grid to make calculator UI.
 
 ## Preview Project
-![calculator](./src/preview-calculator.png)
+![preview-project](./src/preview-calculator.png)
+
+## Reference
+![calculator-reference](./src/referensi-kalkulator.jpg)<br>
+[Reference link](https://i.pinimg.com/736x/a3/67/5b/a3675b36a8eda6dc000324332f6d5739.jpg)
 ## How to run this project
 ### Requirement
 - Node JS

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body {
+            background-color: #ebebeb;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            letter-spacing: .5rem;
+        }
+
+        .body {
+            display: grid;
+            background-color: #ebebeb;
+            width: 600px;
+            margin: 50px auto;
+            padding: 30px 0;
+            border-radius: 50px;
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .screen {
+            height: 100px;
+            width: 500px;
+            background-color: #c4d6c9;
+            margin: 30px auto;
+            border-radius: 10px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+
+        .container {
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            width: 500px;
+            height: 500px;
+            background-color: #ebebeb;
+            padding: 10px;
+
+            &>div {
+                background-color: #ebebeb;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                font-size: 3rem;
+                border-radius: 10px;
+
+                &:nth-child(4),
+                &:nth-child(8),
+                &:nth-child(12),
+                &:nth-child(15),
+                &:nth-child(16) {
+                    background-color: #525252;
+                    color: white;
+                }
+
+                &:nth-child(13) {
+                    background-color: #b20002;
+                    color: white;
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <h1>CALCULATOR</h1>
+        <div class="screen">
+            <div></div>
+        </div>
+        <div class="container">
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>+</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>-</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>&times;</div>
+            <div>C</div>
+            <div>0</div>
+            <div>=</div>
+            <div>&divide;</div>
+        </div>
+    </div>
+</body>
+
+</html>
